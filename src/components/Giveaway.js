@@ -39,13 +39,16 @@ function Giveaway() {
                               <img src="/Images/tattoo.png" className="img-fluid" />
                           </div>
                       </div>
+                      
                       <div className="col-md-6 mt-5">
+                      <FadeInSection>
                           <div>
                               <h2>Tattys & Vacays</h2>
                               <p>
                               Mint a fully inked NFT god and win a trip for you and your person of choice to Gothenburg, Sweden. Get picked up in Saint Touch Limousine for a one week stay at the hotel Radisson. In addition to the luxurious stay, enjoy a full sleeve tattoo done by world renowned tattoo artist, Andreas Ishak.
                               </p>
                           </div>
+                      </FadeInSection>
                       </div>
                   </div>
                 </section>
@@ -59,12 +62,14 @@ function Giveaway() {
                           </div>
                       </div>
                       <div className="col-md-6 mt-5">
+                        <FadeInSection>
                           <div>
                               <h2>Rollie on My Wrist</h2>
                               <p>
                               Mint a fully inked NFT god and win a trip for you and your person of choice to Gothenburg, Sweden. Get picked up in Saint Touch Limousine for a one week stay at the hotel Radisson. In addition to the luxurious stay, enjoy a full sleeve tattoo done by world renowned tattoo artist, Andreas Ishak.
                               </p>
                           </div>
+                        </FadeInSection>
                       </div>
                   </div>
                 </section>
@@ -78,12 +83,14 @@ function Giveaway() {
                           </div>
                       </div>
                       <div className="col-md-6 mt-5">
+                        <FadeInSection>
                           <div>
                               <h2>Keys to The Lambo</h2>
                               <p>
                               Mint a fully inked NFT god and win a trip for you and your person of choice to Gothenburg, Sweden. Get picked up in Saint Touch Limousine for a one week stay at the hotel Radisson. In addition to the luxurious stay, enjoy a full sleeve tattoo done by world renowned tattoo artist, Andreas Ishak.
                               </p>
                           </div>
+                        </FadeInSection>
                       </div>
                   </div>
                 </section>
