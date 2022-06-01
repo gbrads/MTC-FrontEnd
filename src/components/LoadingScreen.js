@@ -5,7 +5,7 @@ function LoadingScreen() {
     <div>
       <section className="Home" id="Home" style={{ backgroundColor: "#000000", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
         <div>
-          <img className="logo" src="/images/loader.gif" />
+          <img className="logo" src="/Images/loader.gif" />
         </div>
       </section>
     </div>

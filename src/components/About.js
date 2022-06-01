@@ -43,17 +43,17 @@ function About() {
             <div className="row">
               <div className="col-md-4">
                 <div className="cards">
-                  <img src="/images/team11.png" className="img-fluid" />
+                <img src="/Images/team11.png" className="img-fluid" />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="cards">
-                  <img src="/images/team12.png" className="img-fluid" />
+                  <img src="/Images/team12.png" className="img-fluid" />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="cards">
-                  <img src="/images/team13.png" className="img-fluid" />
+                  <img src="/Images/team13.png" className="img-fluid" />
                 </div>
               </div>
             </div>
