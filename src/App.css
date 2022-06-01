@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root {
+  --whiteColor: #fff;
+  --blackColor: #161616;
+  --grayColor: #e8c2ec;
+}
+
+html {
+  overflow-x: hidden;
+}
+body {
+  color: var(--whiteColor) !important;
+  font-family: "Cinzel Decorative" !important;
+  /* font-family: "Josefin Sans", sans-serif; */
+  overflow: hidden;
+  text-align: center;
+}
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+h1 {
+  font-size: 4.5em;
+  font-weight: 600;
+  font-family: "Alumni Sans";
+  font-style: italic;
+}
+
+h1 span {
+  -webkit-background-clip: text;
+  color: transparent;
+}
+a .fas {
+  transform: rotate(-40deg);
+  margin-left: 0.5em;
+}
+p {
+  font-family: "Alumni Sans";
+  font-weight: 200;
+  font-size: 20px;
+  color: var(--whiteColor);
+}
+h2 {
+  /* font-family: "Manrope", sans-serif; */
+  font-weight: 700;
+  font-size: 2.5em;
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER  */
+#Header {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+#Header a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Alumni Sans";
+  font-weight: 600;
+  font-size: 20px;
+}
+#Header img {
+  width: 60px;
+}
+
+#Header .mintBtn {
+  text-decoration: none;
+  color: var(--whiteColor);
+  border: 1px solid var(--whiteColor);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em;
+  transition: 300ms all ease-in-out;
+}
+#Header .mintBtn:hover {
+  box-shadow: 0px 0px 18px 4px var(--whiteColor);
+}
+#Header .nav-item {
+  position: relative;
+  transition: 500ms all ease-in-out;
+}
+#Header .nav-item:hover:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #ceb942;
+  border-radius: 50%;
+}
+#Header .nav-item:hover a {
+  font-weight: 700;
+}
+/* HOME SECTION  */
+.Home {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Home img {
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  height: 100%;
+}
+.Home .logo {
+  max-height: 250px;
+  max-width: 250px;
+}
+.Home h1 {
+  margin: 0.3em 0;
+  font-size: 3.2em;
+}
+.Home p {
+  text-transform: uppercase;
+  margin: 0.5em 0;
+}
+.Home a {
+  text-decoration: none;
+  color: var(--whiteColor);
+  border: 1px solid var(--whiteColor);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 300px; */
+  padding: 0.7em 1.6em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 1.5em;
+  /* margin: 2em auto; */
+  transition: 300ms all ease-in-out;
+}
+.Home a:hover {
+  box-shadow: 0px 0px 18px 4px var(--whiteColor);
+}
+.Home .action_btn > a:first-child {
+  border: none;
+  background-image: linear-gradient(to bottom left, #d4af37, #e5cf87);
+}
+.Home .action_btn > a:first-child:hover {
+  background-image: linear-gradient(to bottom right, #d4af37, #e5cf87);
+  box-shadow: none;
+}
+.Home .action_btn {
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 50%;
+}
+.Home .heroContent .sideImg {
+  width: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  height: 100%;
+  display: none;
+}
+/* CHAPTER SECTION */
+.Chapter {
+  padding: 1.5em 0;
+  text-align: left;
+  height: 100vh;
+}
+.Chapter .titleHeading {
+  margin: 0.5em 0;
+  font-weight: 700;
+  text-align: center;
+}
+/* .Chapter .titleHeading span {
+  color: lightgray;
+} */
+.Chapter h2 {
+  margin: 1em 0;
+}
+/* .Chapter img {
+  border: 3px solid var(--whiteColor);
+  border-radius: 1em;
+  background-color: #38383b;
+} */
+
+/* Roadmap */
+
+.Roadmap {
+  padding: 5em 1em;
+}
+.Roadmap .roadmapContent {
+  position: relative;
+}
+.RoadTitle {
+  margin-bottom: -0.5em;
+}
+
+.Roadmap h1 {
+  padding: 1em 0;
+  -webkit-background-clip: text;
+  color: white;
+  display: inline-block;
+}
+.Roadmap p {
+  /* border: 2px solid var(--whiteColor); */
+  padding: 1.5em;
+  /* border-radius: 1em; */
+  /* width: 80%; */
+  /* font-family: "Manrope", sans-serif; */
+  font-weight: 400;
+  margin-bottom: 0;
+  background-color: #1e1d1d;
+  /* background-size: 100% 100%; */
+}
+
+.Roadmap h2 {
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+  margin-bottom: 0;
+}
+.blueprint {
+  height: 90vh;
+}
+
+
+main {
+  overflow-x: hidden;
+  display: flex;
+  position: sticky;
+  top:0;
+}
+.vertical-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.GiveSection {
+  min-width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Artist {
+  width: 100vw;
+  padding: 5em;
+}
+
+.About {
+  width: 100vw;
+  padding: 5em;
+}
+
+/* Collapse */
+.Collapse > div {
+  padding: 4em 0;
+}
+.Collapse .collapseBtn {
+  width: 100%;
+  text-decoration: none;
+}
+.Collapse .collapseBtn {
+  width: 100%;
+  text-decoration: none;
+}
+
+.Team {
+  margin: 10em;
+}
+.Team h1 {
+  padding: 1em 0;
+}
+.Team p {
+  font-size: 1.25em;
+}
+.Team .cards img {
+  border-radius: 1.5em;
+}
+.Team .cards {
+  transition: 300ms all ease-in-out;
+}
+.Team .cards:hover {
+  filter: grayscale(100%);
+  color: var(--grayColor);
+}
+.Team .cards h2 {
+  padding: 0.7em 0;
+  margin-bottom: 0;
+}
+.Team .cards h3 {
+  padding: 1em 0;
+  margin-bottom: 0;
+}
+
+/* Footer */
+
+.Footer {
+  padding: 2em;
+  margin-top: 10em;
+}
+.Footer p {
+  font-size: 0.75em;
+}
+.Footer h1 {
+  font-size: 3em;
+}
+.Footer img {
+  width: 100px;
+}
+.Footer a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 2em 1em;
+  color: var(--whiteColor);
+}
+.Footer a .fab {
+  font-size: 2em;
+}
+/* .accordion-item:not(:first-of-type) {
+  border-top: 2px solid transparent;
+} */
+.accordion-item {
+  background-color: #1e1d1d;
+  border-radius: 1em !important;
+  margin-bottom: 2em;
+}
+
+.accordion-button::after {
+  background-image: none !important;
+  margin-left: 0;
+}
+
+.accordion-button {
+  padding: 1.2em;
+  text-align: center;
+  background-color: transparent !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.5em;
+  border: 2px solid transparent;
+}
+.accordion-button:focus {
+  border-color: transparent;
+}
+.collapsed:hover {
+  border-color: #d4af37;
+  border-radius: 0.6em !important;
+}
+.frame1 {
+  background-size: 100% 100%;
+}
+.roadmap_textbox {
+  width: 80%;
+  border: 1px solid transparent;
+  border-radius: 1em;
+  overflow: hidden;
+  /* display: flex; */
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 1300px) {
+  /* HEADER  */
+  #Header .navbar-toggler {
+    color: #fff !important;
+  }
+  .Roadmap h2 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-bottom: none;
+  }
+
+  .Roadmap p {
+    width: 100%;
+  }
+  .Roadmap .subText {
+    display: none;
+  }
+  .Roadmap .varticalLine {
+    display: none;
+  }
+  .Roadmap .titleText {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 2.25em;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+  p {
+    padding: 0;
+  }
+  .Home img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    height: 100%;
+  }
+  .Roadmap h2 {
+    font-size: 2.25em;
+  }
+  .Roadmap .roadmap_textbox {
+    margin: 1em auto;
+    width: 100%;
+    max-width: 360px;
+  }
+  .Chapter {
+    text-align: center;
+  }
+  .Team h2 {
+    font-size: 2.25em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Home {
+    position: relative;
+    padding-bottom: 7em;
+  }
+  .Home .heroContent .sideImg {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#tsparticles {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
