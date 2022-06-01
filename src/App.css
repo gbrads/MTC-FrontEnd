@@ -51,9 +51,10 @@ p {
   color: var(--whiteColor);
 }
 h2 {
-  /* font-family: "Manrope", sans-serif; */
-  font-weight: 700;
-  font-size: 2.5em;
+  font-family: "Alumni Sans";
+  font-weight: 600;
+  font-size: 50px;
+  font-style: italic;
 }
 h3 {
   font-weight: 700;
@@ -276,7 +277,17 @@ main {
   width: 100vw;
   padding: 5em;
 }
-
+.Artist h2 {
+  font-family: "Alumni Sans";
+  font-weight: 600;
+  font-size: 50px;
+  font-style: italic;
+}
+.Artist p {
+  font-family: "Alumni Sans";
+  font-weight: 300;
+  font-size: 20px;
+}
 .About {
   width: 100vw;
   padding: 5em;
@@ -285,6 +296,11 @@ main {
 .Giveaway {
   width: 100vw;
   padding: 5em;
+}
+.Giveaway h2 {
+  font-family: "Alumni Sans";
+  font-weight: 300;
+  font-size: 20px;
 }
 
 /* Collapse */
@@ -306,8 +322,14 @@ main {
 .Team h1 {
   padding: 1em 0;
 }
+.Team h3 {
+  font-family: "Alumni Sans";
+  font-weight: 600;
+  font-size: 35px;
+}
 .Team p {
   font-size: 1.25em;
+  font-family: "Alumni Sans";
 }
 .Team .cards img {
   border-radius: 1.5em;
@@ -335,10 +357,17 @@ main {
   margin-top: 10em;
 }
 .Footer p {
-  font-size: 0.75em;
+  font-family: "Alumni Sans";
+  font-weight: 100;
+  font-size: 18px;
 }
 .Footer h1 {
   font-size: 3em;
+}
+.Footer h3 {
+  font-family: "Alumni Sans";
+  font-weight: 600;
+  font-size: 30px;
 }
 .Footer img {
   width: 100px;
@@ -359,6 +388,9 @@ main {
   background-color: #1e1d1d;
   border-radius: 1em !important;
   margin-bottom: 2em;
+  font-family: "Alumni Sans";
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .accordion-button::after {
@@ -374,8 +406,10 @@ main {
   box-shadow: none !important;
   align-items: center;
   justify-content: center;
+  font-family: "Alumni Sans";
   font-weight: 700;
-  font-size: 0.5em;
+  font-size: 25px;
+  font-style: italic;
   border: 2px solid transparent;
 }
 .accordion-button:focus {
@@ -487,15 +521,4 @@ main {
 .fade-out {
   opacity: 0;
   transition: opacity 1s ease;
-}
-
-#tsparticles {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  left: 0;
-  top: 0;
-  z-index: -1;
 }
