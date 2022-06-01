@@ -282,6 +282,11 @@ main {
   padding: 5em;
 }
 
+.Giveaway {
+  width: 100vw;
+  padding: 5em;
+}
+
 /* Collapse */
 .Collapse > div {
   padding: 4em 0;

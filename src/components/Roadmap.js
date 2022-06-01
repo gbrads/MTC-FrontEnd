@@ -31,7 +31,7 @@ const Roadmap = () => (
 
       <FadeInSection>
         <div>
-        <img src="/images/blueprint.png" className="blueprint"/>
+        <img src="/Images/blueprint.png" className="blueprint"/>
         </div>
       </FadeInSection>
 
