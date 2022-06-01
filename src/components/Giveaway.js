@@ -36,7 +36,7 @@ function Giveaway() {
                   <div className="row align-items-center mt-5">
                       <div className="offset-md-1 col-md-4 mt-5">
                           <div className="frame1" style={{ backgroundImage: "url(/images/frame111.png)" }}>
-                              <img src="/images/nft3.png" className="img-fluid" />
+                              <img src="/Images/tattoo.png" className="img-fluid" />
                           </div>
                       </div>
                       <div className="col-md-6 mt-5">
@@ -55,7 +55,7 @@ function Giveaway() {
                   <div className="row align-items-center mt-5">
                       <div className="offset-md-1 col-md-4 mt-5">
                           <div className="frame1" style={{ backgroundImage: "url(/images/frame111.png)" }}>
-                              <img src="/images/nft3.png" className="img-fluid" />
+                              <img src="/Images/rolex.png" className="img-fluid" />
                           </div>
                       </div>
                       <div className="col-md-6 mt-5">
@@ -74,7 +74,7 @@ function Giveaway() {
                   <div className="row align-items-center mt-5">
                       <div className="offset-md-1 col-md-4 mt-5">
                           <div className="frame1" style={{ backgroundImage: "url(/images/frame111.png)" }}>
-                              <img src="/images/nft3.png" className="img-fluid" />
+                              <img src="/Images/lambo.png" className="img-fluid" />
                           </div>
                       </div>
                       <div className="col-md-6 mt-5">

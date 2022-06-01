@@ -3,7 +3,7 @@
 
 :root {
   --whiteColor: #fff;
-  --blackColor: #161616;
+  --blackColor: #000000;
   --grayColor: #e8c2ec;
 }
 
@@ -13,7 +13,7 @@ html {
 body {
   color: var(--whiteColor) !important;
   font-family: "Cinzel Decorative" !important;
-  /* font-family: "Josefin Sans", sans-serif; */
+  background-color: #000000;
   overflow: hidden;
   text-align: center;
 }
