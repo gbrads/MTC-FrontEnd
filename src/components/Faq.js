@@ -36,6 +36,7 @@ function Faq() {
             <div className="row">
               <div className="col-md-8 mx-auto">
                 <Accordion>
+                  <FadeInSection>
                   <Accordion.Item
                     eventKey="0"
                     style={{ border: activeFaq === 0 ? "2px solid #d4af37" : "" }}
@@ -46,6 +47,8 @@ function Faq() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Accordion.Body>
                   </Accordion.Item>
+                  </FadeInSection>
+                  <FadeInSection>
                   <Accordion.Item
                     eventKey="1"
                     style={{ border: activeFaq === 1 ? "2px solid #d4af37" : "" }}
@@ -56,6 +59,8 @@ function Faq() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Accordion.Body>
                   </Accordion.Item>
+                  </FadeInSection>
+                  <FadeInSection>
                   <Accordion.Item
                     eventKey="2"
                     style={{ border: activeFaq === 2 ? "2px solid #d4af37" : "" }}
@@ -66,6 +71,8 @@ function Faq() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Accordion.Body>
                   </Accordion.Item>
+                  </FadeInSection>
+                  <FadeInSection>
                   <Accordion.Item
                     eventKey="3"
                     style={{ border: activeFaq === 3 ? "2px solid #d4af37" : "" }}
@@ -76,6 +83,7 @@ function Faq() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Accordion.Body>
                   </Accordion.Item>
+                  </FadeInSection>
                 </Accordion>
               </div>
             </div>

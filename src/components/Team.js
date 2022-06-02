@@ -35,8 +35,10 @@ function Team() {
               <div className="cards">
                 <FadeInSection>
                 <img src="/Images/team11.png" className="img-fluid" />
+                </FadeInSection>
+                <FadeInSection>
                 <h3>Tommy</h3>
-                </FadeInSection>
+                </FadeInSection>        
               </div>
               <FadeInSection>
               <p>Position</p>
@@ -46,8 +48,10 @@ function Team() {
               <div className="cards">
                 <FadeInSection>
                 <img src="/Images/team11.png" className="img-fluid" />
-                <h3>Stefan</h3>
                 </FadeInSection>
+                <FadeInSection>
+                <h3>Tommy</h3>
+                </FadeInSection>        
               </div>
               <FadeInSection>
               <p>Position</p>
@@ -57,8 +61,10 @@ function Team() {
               <div className="cards">
                 <FadeInSection>
                 <img src="/Images/team11.png" className="img-fluid" />
-                <h3>Andreas</h3>
                 </FadeInSection>
+                <FadeInSection>
+                <h3>Tommy</h3>
+                </FadeInSection>        
               </div>
               <FadeInSection>
               <p>Position</p>
@@ -68,8 +74,10 @@ function Team() {
               <div className="cards">
                 <FadeInSection>
                 <img src="/Images/team11.png" className="img-fluid" />
-                <h3>Garret</h3>
                 </FadeInSection>
+                <FadeInSection>
+                <h3>Tommy</h3>
+                </FadeInSection>        
               </div>
               <FadeInSection>
               <p>Position</p>
@@ -79,8 +87,10 @@ function Team() {
               <div className="cards">
                 <FadeInSection>
                 <img src="/Images/team11.png" className="img-fluid" />
-                <h3>Trevor</h3>
                 </FadeInSection>
+                <FadeInSection>
+                <h3>Tommy</h3>
+                </FadeInSection>        
               </div>
               <FadeInSection>
               <p>Position</p>
@@ -90,8 +100,10 @@ function Team() {
               <div className="cards">
                 <FadeInSection>
                 <img src="/Images/team11.png" className="img-fluid" />
-                <h3>Nate</h3>
                 </FadeInSection>
+                <FadeInSection>
+                <h3>Tommy</h3>
+                </FadeInSection>        
               </div>
               <FadeInSection>
               <p>Position</p>

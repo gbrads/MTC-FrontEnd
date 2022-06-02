@@ -50,6 +50,13 @@ p {
   font-size: 25px;
   color: var(--whiteColor);
 }
+h6 {
+  font-family: "Alumni Sans";
+  font-weight: 200;
+  font-size: 25px;
+  font-style: italic;
+  color: var(--whiteColor);
+}
 h2 {
   font-family: "Alumni Sans";
   font-weight: 600;
