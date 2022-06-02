@@ -23,7 +23,7 @@ function FadeInSection(props) {
 function Giveaway() {
 
   return (
-    <div className="container" style={{marginBottom: "5em"}}>
+    <div className="container" style={{marginBottom: "20em"}}>
       <FadeInSection>
           <div>
             <h1>

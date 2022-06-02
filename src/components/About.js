@@ -22,7 +22,7 @@ function FadeInSection(props) {
 
 function About() {
   return (
-    <section className="About" id="About" style={{marginTop: "4em"}}>
+    <section className="About" id="About" style={{marginBottom: "15em"}}>
       <div className="container" style={{marginBottom: 8 + 'em'}}>
           <FadeInSection>
             <h1 style={{marginBottom: 1 + 'em'}}>

@@ -22,7 +22,7 @@ function FadeInSection(props) {
 
 const Roadmap = () => (
   <section className="blueprint1" id="Roadmap">
-    <div className="container" style={{marginBottom: "12em"}}>
+    <div className="container" style={{marginBottom: "20em"}}>
       <FadeInSection>
             <h1>
             THE <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>BLUEPRINT</span>

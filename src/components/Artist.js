@@ -24,7 +24,7 @@ function FadeInSection(props) {
 
 function Artist() {
   return (
-    <section className="Artist" id="Artist">
+    <section className="Artist" id="Artist" style={{marginBottom: "15em"}}>
       <div>
         <div className="container">
         <FadeInSection>
