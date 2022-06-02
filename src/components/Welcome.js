@@ -25,7 +25,7 @@ function Welcome() {
     <section className="About" id="About" style={{marginBottom: "15em"}}>
       <div className="container">
           <FadeInSection>
-            <h1 style={{marginBottom: 1 + 'em'}}>
+            <h1 style={{marginBottom: 1 + 'em', marginTop: 3 + 'em'}}>
             META <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>TATTOO CLUB</span>
             </h1>
           </FadeInSection>
