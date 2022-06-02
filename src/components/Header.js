@@ -22,34 +22,39 @@ function Header() {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    <img src="/Images/sub-logo1.png" />
+                    <img src="/Images/main-logo.png" />
                   </a>
                 </li>
               </ul>
               <ul className="navbar-nav mx-auto">
-                <li className="nav-item">
-                  <a className="nav-link" href="#Home">
-                    Home
-                  </a>
-                </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#About">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Faq">
-                    FAQ
+                  <a className="nav-link" href="#Roadmap">
+                    Blueprint
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Roadmap">
-                    Roadmap
+                  <a className="nav-link" href="#Giveaway">
+                    Giveaways
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#Artist">
+                    Artist
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#Team">
                     Team
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#Faq">
+                    FAQ
                   </a>
                 </li>
               </ul>

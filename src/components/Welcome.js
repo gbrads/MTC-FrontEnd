@@ -26,7 +26,7 @@ function Welcome() {
       <div className="container">
           <FadeInSection>
             <h1 style={{marginBottom: 1 + 'em'}}>
-            <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>META TATTOO CLUB</span>
+            META <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>TATTOO CLUB</span>
             </h1>
           </FadeInSection>
           <FadeInSection>

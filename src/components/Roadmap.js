@@ -24,7 +24,7 @@ const Roadmap = () => (
   <section className="blueprint1" id="Roadmap">
     <div className="container" style={{marginBottom: "20em"}}>
       <FadeInSection>
-            <h1>
+            <h1 style={{marginBottom: 1 + 'em'}}>
             THE <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>BLUEPRINT</span>
             </h1>
           </FadeInSection>
