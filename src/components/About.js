@@ -23,20 +23,23 @@ function FadeInSection(props) {
 function About() {
   return (
     <section className="About" id="About" style={{marginTop: "4em"}}>
-      <div className="container">
+      <div className="container" style={{marginBottom: 8 + 'em'}}>
           <FadeInSection>
-            <h1 style={{marginBottom: 0.5 + 'em'}}>
+            <h1 style={{marginBottom: 1 + 'em'}}>
             A LOOK <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>INSIDE</span>
             </h1>
           </FadeInSection>
           <FadeInSection>
             <div className="">
-              <p style={{marginBottom: 1 + 'em'}}>A collection of 10,000 steezy inked up gods making noise on the Sol blockchain. Some artists paint pictures, others create music, but we at MTC we like to use our bodies as the canvas for our art. This ones for the misfits, the rebels, the black sheep, the wild ones. There is always a place for you at the Meta Tattoo Club.</p>
+              <p style={{marginBottom: 2 + 'em'}}>As the metaverse continues to evolve, so will our virtual avatars. With tattoos becoming a norm over the last decade, they are without a doubt going to come with us in to the virtual world and we want to be the ones that are in charge of this tattoo revolution that will happen in the metaverse.</p>
             </div>
+          </FadeInSection>
+          <FadeInSection>
+            <h2 style={{marginBottom: 1 + 'em'}}>WE'RE ALL GONNA BE INKED. (WAGBI)</h2>
           </FadeInSection>
 
           <FadeInSection>
-            <p style={{marginBottom: 4 + 'em'}}>Meta Tattoo Club NFT is not just a JPEG NFT project. Our intention is to change & better people’s lives by being the lottery/raffle of the real world all while contributing to the evolution and development of Web3. We seek to be much more than just another everyday NFT project, but rather a global lifestyle brand that will also test the technological limit of decentralized blockchain. With already acquired land in The Sandbox, we will become the tattoo shop of Web3. In addition to the land in the metaverse, our team member and world renowned tattoo artist Andreas Ishak has his own tattoo shop in Sweden and we look to expand the chain and build high end tattoo shops all over the globe all under the name Meta Tattoo Club. Our guiding star is to have a community of like minded individuals, who can interact with one another in the real world and a virtual reality world, use our $STZ coin as a form of currency and get rewarded through our utilities.</p>
+            <p style={{marginBottom: 3 + 'em'}}>Our goal is for everyone be able to express themselves through the art of tattooing. With our team of experts, we are certain that we will become THE tattoo shop of Web3 and the real world. Imagine a place where you could put on or take off your tattoo within seconds without going through the hassle of sitting in a chair for 8-10 hours.</p>
           </FadeInSection>
 
           <FadeInSection>

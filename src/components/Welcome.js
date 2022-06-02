@@ -25,12 +25,12 @@ function Welcome() {
     <section className="About" id="About" style={{marginTop: "4em"}}>
       <div className="container">
           <FadeInSection>
-            <h1 style={{marginBottom: 0.5 + 'em'}}>
+            <h1 style={{marginBottom: 1 + 'em'}}>
             <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>META TATTOO CLUB</span>
             </h1>
           </FadeInSection>
           <FadeInSection>
-            <p style={{marginBottom: 1 + 'em'}}>A collection of 10,000 steezy inked up gods making noise on the Sol blockchain. Some artists paint pictures, others create music, but we at MTC we like to use our bodies as the canvas for our art. This ones for the misfits, the rebels, the black sheep, the wild ones. There is always a place for you at the Meta Tattoo Club.</p>
+            <p style={{marginBottom: 2 + 'em'}}>A collection of 10,000 steezy inked up gods making noise on the Sol blockchain. Some artists paint pictures, others create music, but we at MTC we like to use our bodies as the canvas for our art. This ones for the misfits, the rebels, the black sheep, the wild ones. There is always a place for you at the Meta Tattoo Club.</p>
           </FadeInSection>
 
           <FadeInSection>

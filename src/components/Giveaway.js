@@ -43,7 +43,7 @@ function Giveaway() {
                       <div className="col-md-6 mt-5">
                       <FadeInSection>
                           <div>
-                              <h2>Tattys & Vacays</h2>
+                              <h2>Tattys & vacays</h2>
                               <p>
                               Mint a fully inked NFT god and win a trip for you and your person of choice to Gothenburg, Sweden. Get picked up in Saint Touch Limousine for a one week stay at the hotel Radisson. In addition to the luxurious stay, enjoy a full sleeve tattoo done by world renowned tattoo artist, Andreas Ishak.
                               </p>
@@ -66,7 +66,7 @@ function Giveaway() {
                           <div>
                               <h2>Rollie on My Wrist</h2>
                               <p>
-                              Mint a fully inked NFT god and win a trip for you and your person of choice to Gothenburg, Sweden. Get picked up in Saint Touch Limousine for a one week stay at the hotel Radisson. In addition to the luxurious stay, enjoy a full sleeve tattoo done by world renowned tattoo artist, Andreas Ishak.
+                                Mint a gold NFT and win a brand new Rolex watch. Valued at over $15,000, there will be 5 lucky community members that will receive one of the various Rolexes. Let this Rolex be a symbol of someone who demands only the best (MTC).
                               </p>
                           </div>
                         </FadeInSection>
@@ -87,7 +87,7 @@ function Giveaway() {
                           <div>
                               <h2>Keys to The Lambo</h2>
                               <p>
-                              Mint a fully inked NFT god and win a trip for you and your person of choice to Gothenburg, Sweden. Get picked up in Saint Touch Limousine for a one week stay at the hotel Radisson. In addition to the luxurious stay, enjoy a full sleeve tattoo done by world renowned tattoo artist, Andreas Ishak.
+                                One week after the mint, every NFT holder will be entered into a draw to win the grand prize, a Lamborghini Huracan. Italian excellence meets Meta Tattoo Club for a prize of a life time!
                               </p>
                           </div>
                         </FadeInSection>

@@ -23,53 +23,79 @@ function FadeInSection(props) {
 function Team() {
   return (
     <FadeInSection>
-      <section className="Team" id="Team">
+      <section className="Team" id="Team" style={{marginBottom: "20em"}}>
         <div className="container">
+          <FadeInSection>
           <h1>
             CORE <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>TEAM</span>
           </h1>
+          </FadeInSection>
           <div className="row">
             <div className="col-md-2">
               <div className="cards">
+                <FadeInSection>
                 <img src="/Images/team11.png" className="img-fluid" />
                 <h3>Tommy</h3>
+                </FadeInSection>
               </div>
+              <FadeInSection>
               <p>Position</p>
+              </FadeInSection>
             </div>
             <div className="col-md-2">
               <div className="cards">
-                <img src="/Images/team12.png" className="img-fluid" />
+                <FadeInSection>
+                <img src="/Images/team11.png" className="img-fluid" />
                 <h3>Stefan</h3>
+                </FadeInSection>
               </div>
+              <FadeInSection>
               <p>Position</p>
+              </FadeInSection>
             </div>
             <div className="col-md-2">
               <div className="cards">
-                <img src="/Images/team13.png" className="img-fluid" />
+                <FadeInSection>
+                <img src="/Images/team11.png" className="img-fluid" />
                 <h3>Andreas</h3>
+                </FadeInSection>
               </div>
+              <FadeInSection>
               <p>Position</p>
+              </FadeInSection>
             </div>
             <div className="col-md-2">
               <div className="cards">
-                <img src="/Images/team13.png" className="img-fluid" />
+                <FadeInSection>
+                <img src="/Images/team11.png" className="img-fluid" />
                 <h3>Garret</h3>
+                </FadeInSection>
               </div>
+              <FadeInSection>
               <p>Position</p>
+              </FadeInSection>
             </div>
             <div className="col-md-2">
               <div className="cards">
-                <img src="/Images/team13.png" className="img-fluid" />
+                <FadeInSection>
+                <img src="/Images/team11.png" className="img-fluid" />
                 <h3>Trevor</h3>
+                </FadeInSection>
               </div>
+              <FadeInSection>
               <p>Position</p>
+              </FadeInSection>
             </div>
             <div className="col-md-2">
               <div className="cards">
-                <img src="/Images/team13.png" className="img-fluid" />
-                <h3>Nater</h3>
+                <FadeInSection>
+                <img src="/Images/team11.png" className="img-fluid" />
+                <h3>Nate</h3>
+                </FadeInSection>
               </div>
+              <FadeInSection>
               <p>Position</p>
+              </FadeInSection>
             </div>
           </div>
         </div>
