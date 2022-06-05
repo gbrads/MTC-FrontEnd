@@ -20,23 +20,24 @@ function FadeInSection(props) {
   );
 }
 
-const Roadmap = () => (
-  <section className="blueprint1" id="Roadmap">
-    <div className="container" style={{marginBottom: "20em"}}>
-      <FadeInSection>
+
+function Roadmap() {
+  return (
+    <section className="About" id="Roadmap" style={{marginBottom: "15em"}}>
+      <div className="container" style={{marginBottom: 8 + 'em'}}>
+          <FadeInSection>
             <h1 style={{marginBottom: 1 + 'em'}}>
             THE <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>BLUEPRINT</span>
             </h1>
           </FadeInSection>
-
-      <FadeInSection>
-        <div>
-        <img src="/Images/blueprint3.png" className="blueprint"/>
-        </div>
-      </FadeInSection>
-
-    </div>
-  </section>
-);
+          <FadeInSection>
+            <div>
+              <img src="/Images/blueprint3.png" className="blueprint"/>
+            </div>
+          </FadeInSection>
+      </div>
+    </section>
+  );
+}
 
 export default Roadmap;

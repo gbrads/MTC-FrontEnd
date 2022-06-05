@@ -22,21 +22,18 @@ function FadeInSection(props) {
   );
 }
 
-function Artist() {
+function About() {
   return (
-    <section className="Artist" id="Artist" style={{marginBottom: "15em"}}>
-      <div>
-        <div className="container">
-        <FadeInSection>
-          <div>
-            <h1 className="titleHeading">
-              OUR <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>ARTIST</span>
+    <section className="About" id="Artist" style={{marginBottom: "15em"}}>
+      <div className="container" style={{marginBottom: 8 + 'em'}}>
+          <FadeInSection>
+            <h1 style={{marginBottom: 1 + 'em'}}>
+            OUR <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>ARTIST</span>
             </h1>
-          </div>
-        </FadeInSection>
+          </FadeInSection>
           <FadeInSection>
             <div className="row align-items-center">
-              <div className="offset-md-1 col-md-6 mt-5">
+              <div className="col-md-6 mt-5">
                 <div className="p-3">
                   <FadeInSection>
                     <h2>ANDREAS ISHAK</h2>
@@ -55,10 +52,10 @@ function Artist() {
               </div>
             </div>
           </FadeInSection>
-        </div>
       </div>
     </section>
   );
 }
 
-export default Artist;
+export default About;
+

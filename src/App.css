@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   --whiteColor: #fff;
@@ -259,11 +260,16 @@ h4 {
 .blueprint {
   max-height: 100%;
   max-width: 100%;
+  text-align: left;
 }
 .blueprint1 {
   margin-top: 5em;
   height: 100%;
   width: 100vw;
+  text-align: left;
+}
+.blueprint1 h1 {
+  margin: 10em;
 }
 
 
@@ -289,6 +295,7 @@ main {
 .Artist {
   width: 100vw;
   padding: 5em;
+  text-align: left;
 }
 .Artist h2 {
   font-family: "Alumni Sans";
@@ -302,13 +309,19 @@ main {
   font-size: 20px;
 }
 .About {
-  width: 100vw;
   padding: 5em;
+  text-align: left;
+  margin: 10em;
+}
+.Faq {
+  text-align: left;
+  margin: 10em;
 }
 
 .Giveaway {
   width: 100vw;
   padding: 5em;
+  text-align: left;
 }
 .Giveaway h2 {
   font-family: "Alumni Sans";
@@ -331,6 +344,8 @@ main {
 
 .Team {
   margin: 10em;
+  text-align: left;
+  padding: 5em;
 }
 .Team h1 {
   padding: 1em 0;

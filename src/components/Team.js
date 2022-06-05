@@ -22,13 +22,12 @@ function FadeInSection(props) {
 
 function Team() {
   return (
-    <FadeInSection>
-      <section className="Team" id="Team" style={{marginBottom: "20em"}}>
-        <div className="container">
+    <section className="Team" id="Team" style={{marginBottom: "15em"}}>
+      <div className="container" style={{marginBottom: 8 + 'em'}}>
           <FadeInSection>
-          <h1>
+            <h1 style={{marginBottom: 1 + 'em'}}>
             CORE <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>TEAM</span>
-          </h1>
+            </h1>
           </FadeInSection>
           <div className="row">
             <div className="col-md-2">
@@ -112,7 +111,6 @@ function Team() {
           </div>
         </div>
       </section>
-    </FadeInSection>
   );
 }
 

@@ -22,7 +22,7 @@ function Header() {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    <img src="/Images/main-logo.png" />
+                    <img src="/Images/sub-logo1.png" />
                   </a>
                 </li>
               </ul>

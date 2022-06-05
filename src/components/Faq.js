@@ -21,19 +21,18 @@ function FadeInSection(props) {
   );
 }
 
+
 function Faq() {
   const [activeFaq, setActiveFaq] = React.useState();
   return (
-    <FadeInSection>
-      <section
-        className="Faq"
-        id="Faq">
-        <div>
-          <div className="container">
-            <h1 className="mb-4">
-              YOUR <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>ANSWERS</span>
+    <section className="About" id="Faq" style={{marginBottom: "15em"}}>
+      <div className="container" style={{marginBottom: 8 + 'em'}}>
+          <FadeInSection>
+            <h1 style={{marginBottom: 1 + 'em'}}>
+            A LOOK <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>INSIDE</span>
             </h1>
-            <div className="row">
+          </FadeInSection>
+          <div className="row">
               <div className="col-md-8 mx-auto">
                 <Accordion>
                   <FadeInSection>
@@ -87,10 +86,8 @@ function Faq() {
                 </Accordion>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-    </FadeInSection>
+      </div>
+    </section>
   );
 }
 
