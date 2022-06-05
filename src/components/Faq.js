@@ -29,7 +29,7 @@ function Faq() {
       <div className="container" style={{marginBottom: 8 + 'em'}}>
           <FadeInSection>
             <h1 style={{marginBottom: 1 + 'em'}}>
-            A LOOK <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>INSIDE</span>
+            YOUR <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>ANSWERS</span>
             </h1>
           </FadeInSection>
           <div className="row">
