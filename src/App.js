@@ -10,6 +10,7 @@ import Artist from "./components/Artist";
 import Team from "./components/Team";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
+import Matrix from "./components/Matrix"
 
 import "./App.css";
 
@@ -27,6 +28,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
+      <Matrix />
       <Welcome />
       <About />
       <Roadmap />

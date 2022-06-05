@@ -35,7 +35,7 @@ function About() {
             </div>
           </FadeInSection>
           <FadeInSection>
-            <h2 style={{marginBottom: 1 + 'em'}}>WE'RE ALL GONNA BE INKED. (WAGBI)</h2>
+            <h2 style={{marginBottom: 1 + 'em'}}>(WAGBI) - WE'RE ALL GONNA BE INKED.</h2>
           </FadeInSection>
 
           <FadeInSection>
