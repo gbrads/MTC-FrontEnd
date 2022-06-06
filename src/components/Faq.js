@@ -25,8 +25,8 @@ function FadeInSection(props) {
 function Faq() {
   const [activeFaq, setActiveFaq] = React.useState();
   return (
-    <section className="About" id="Faq" style={{marginBottom: "15em"}}>
-      <div className="container" style={{marginBottom: 8 + 'em'}}>
+    <section className="About" id="Faq" style={{ backgroundImage: "url(/Images/bg11.png)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
+      <div className="container">
           <FadeInSection>
             <h1 style={{marginBottom: 1 + 'em'}}>
             YOUR <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>ANSWERS</span>

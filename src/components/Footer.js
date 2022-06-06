@@ -23,7 +23,7 @@ function FadeInSection(props) {
 function Footer() {
   return (
     <FadeInSection>
-      <footer className="Footer">
+      <footer className="Footer" style={{ backgroundImage: "url(/Images/bg11.png)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
         <div className="container">
           <div>
             <a href="#">

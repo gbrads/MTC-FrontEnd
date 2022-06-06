@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-function MatrixBackground({ timeout = 50 }) {
+function MatrixBackground({ timeout = 69 }) {
     const canvas = useRef();
 
     useEffect(() => {
@@ -24,7 +24,7 @@ function MatrixBackground({ timeout = 50 }) {
             context.fillStyle = '#0002';
             context.fillRect(0, 0, width, height);
 
-            context.fillStyle = '#d4af3766';
+            context.fillStyle = '#d4af3750';
             context.font = '15pt monospace';
 
             yPositions.forEach((y, index) => {

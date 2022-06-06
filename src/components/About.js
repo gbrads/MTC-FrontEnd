@@ -22,7 +22,7 @@ function FadeInSection(props) {
 
 function About() {
   return (
-    <section className="About" id="About" style={{marginBottom: "15em"}}>
+    <section className="About" id="About" style={{ backgroundImage: "url(/Images/bg11.png)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
       <div className="container" style={{marginBottom: 8 + 'em'}}>
           <FadeInSection>
             <h1 style={{marginBottom: 1 + 'em'}}>

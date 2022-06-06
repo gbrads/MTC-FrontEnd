@@ -31,7 +31,7 @@ body {
   visibility: visible;
 }
 h1 {
-  font-size: 4.5em;
+  font-size: 100px;
   font-weight: 600;
   font-family: "Alumni Sans";
   font-style: italic;
@@ -306,9 +306,8 @@ main {
   font-size: 20px;
 }
 .About {
-  padding: 10%;
   text-align: left;
-  margin: 10%;
+  width: 100vw;
 }
 .Faq {
   text-align: left;
@@ -342,9 +341,8 @@ main {
 }
 
 .Team {
-  margin: 10%;
   text-align: left;
-  padding: 10%;
+  width: 100vw;
 }
 .Team h1 {
   padding: 1em 0;
