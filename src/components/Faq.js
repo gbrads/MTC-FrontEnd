@@ -43,7 +43,7 @@ function Faq() {
                   >
                     <Accordion.Header>When is the Official Launch Date?</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      The launch date will be released upon firther notice inside our Discord.
                     </Accordion.Body>
                   </Accordion.Item>
                   </FadeInSection>
@@ -55,7 +55,7 @@ function Faq() {
                   >
                     <Accordion.Header>How Much Will It Cost To Mint One?</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      The official mint price is still TBD. This will be announced exclusively inside our Discord.
                     </Accordion.Body>
                   </Accordion.Item>
                   </FadeInSection>
@@ -67,7 +67,7 @@ function Faq() {
                   >
                     <Accordion.Header>Will There Be A Pre-Sale?</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Yes. But not through discord grinding and generic WL spots..
                     </Accordion.Body>
                   </Accordion.Item>
                   </FadeInSection>
@@ -79,7 +79,7 @@ function Faq() {
                   >
                     <Accordion.Header>What Secondary Market Will We Be Listed On?</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Shortly after mint is completed, we will be listed on Magic Eden for secondary sales.
                     </Accordion.Body>
                   </Accordion.Item>
                   </FadeInSection>

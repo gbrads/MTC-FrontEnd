@@ -41,7 +41,7 @@ function About() {
             <p style={{marginBottom: 3 + 'em'}}>Our goal is for everyone be able to express themselves through the art of tattooing. With our team of experts, we are certain that we will become THE tattoo shop of Web3 and the real world. Imagine a place where you could put on or take off your tattoo within seconds without going through the hassle of sitting in a chair for 8-10 hours.</p>
           </FadeInSection>
 
-          <FadeInSection>
+          <FadeInSection style={{marginBottom: 3 + 'em'}}>
             <div className="row">
               <div className="col-md-4">
                 <div className="cards">
