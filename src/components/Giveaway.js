@@ -27,7 +27,7 @@ function Giveaway() {
       <div className="container" style={{marginBottom: 8 + 'em'}}>
           <FadeInSection>
             <h1 style={{marginBottom: 1 + 'em'}}>
-            TIME FOR <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>SOME GIVEAWAYS</span>
+            MINTING <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>GIVEAWAYS</span>
             </h1>
           </FadeInSection>
           <div className="row align-items-center mt-5">

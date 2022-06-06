@@ -45,7 +45,7 @@ function About() {
                   </FadeInSection>
                 </div>
               </div>
-              <div className="col-md-4 mt-5 text-start">
+              <div className="col-md-6 mt-5">
                 <FadeInSection>
                   <video controls autostart autoPlay src="../Assets/vid.mp4" type="video/mp4" />
                 </FadeInSection>

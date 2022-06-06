@@ -263,10 +263,7 @@ h4 {
   text-align: left;
 }
 .blueprint1 {
-  margin-top: 5em;
-  height: 100%;
-  width: 100vw;
-  text-align: left;
+  height: 75%;
 }
 .blueprint1 h1 {
   margin: 10em;
@@ -356,13 +353,16 @@ main {
   font-family: "Alumni Sans";
   font-weight: 600;
   font-size: 35px;
+  text-align: center;
 }
 .Team p {
   font-size: 1.25em;
   font-family: "Alumni Sans";
+  text-align: center;
 }
 .Team .cards img {
   border-radius: 1.5em;
+  margin-top: 3em;
 }
 .Team .cards {
   transition: 300ms all ease-in-out;
@@ -376,7 +376,7 @@ main {
   margin-bottom: 0;
 }
 .Team .cards h3 {
-  padding: 1em 0;
+  padding: 0.5em 0;
   margin-bottom: 0;
 }
 

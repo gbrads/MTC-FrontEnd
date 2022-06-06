@@ -26,7 +26,7 @@ function Welcome() {
       <div className="container">
           <FadeInSection>
             <h1 style={{marginBottom: 1 + 'em', marginTop: 3 + 'em'}}>
-            META <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>TATTOO CLUB</span>
+            WELCOME TO <span style={{ backgroundImage: "linear-gradient(to bottom left, #d4af37, #e5cf87)" }}>META TATTOO CLUB</span>
             </h1>
           </FadeInSection>
           <FadeInSection>
@@ -34,7 +34,7 @@ function Welcome() {
           </FadeInSection>
 
           <FadeInSection>
-            <p style={{marginBottom: 2 + 'em'}}>Meta Tattoo Club NFT is not just a JPEG NFT project. Our intention is to change & better people’s lives by being the lottery/raffle of the real world all while contributing to the evolution and development of Web3. We seek to be much more than just another everyday NFT project, but rather a global lifestyle brand that will also test the technological limit of decentralized blockchain.</p>
+            <p style={{marginBottom: 2 + 'em'}}>Meta Tattoo Club is not just a PFP NFT project. Our intention is to change & better people’s lives by being the lottery/raffle of the real world all while contributing to the evolution and development of Web3. We seek to be much more than just another everyday NFT project, but rather a global lifestyle brand that will also test the technological limit of decentralized blockchain.</p>
           </FadeInSection>
           <FadeInSection>
             <p style={{marginBottom: 2 + 'em'}}>With already acquired land in The Sandbox, we will become the tattoo shop of Web3. In addition to the land in the metaverse, our team member and world renowned tattoo artist Andreas Ishak has his own tattoo shop in Sweden and we look to expand the chain and build high end tattoo shops all over the globe all under the name Meta Tattoo Club.</p>

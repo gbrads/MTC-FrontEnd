@@ -35,9 +35,8 @@ function About() {
             </div>
           </FadeInSection>
           <FadeInSection>
-            <h2 style={{marginBottom: 1 + 'em'}}>(WAGBI) - WE'RE ALL GONNA BE INKED.</h2>
+            <h2 style={{marginBottom: 2 + 'em'}}>(WAGBI) - WE'RE ALL GONNA BE INKED.</h2>
           </FadeInSection>
-
           <FadeInSection>
             <p style={{marginBottom: 3 + 'em'}}>Our goal is for everyone be able to express themselves through the art of tattooing. With our team of experts, we are certain that we will become THE tattoo shop of Web3 and the real world. Imagine a place where you could put on or take off your tattoo within seconds without going through the hassle of sitting in a chair for 8-10 hours.</p>
           </FadeInSection>

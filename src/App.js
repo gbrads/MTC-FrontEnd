@@ -11,6 +11,8 @@ import Team from "./components/Team";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Matrix from "./components/Matrix"
+import Example from './components/Example';
+import Rain from './components/Rain';
 
 import "./App.css";
 

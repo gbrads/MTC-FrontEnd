@@ -11,13 +11,13 @@ function MatrixBackground({ timeout = 50 }) {
         canvas.current.width = width;
         canvas.current.height = height;
 
-        context.fillStyle = '#0009';
+        context.fillStyle = '#000000';
         context.fillRect(0, 0, width, height);
 
         const columns = Math.floor(width / 20) + 1;
         const yPositions = Array.from({ length: columns }).fill(0);
 
-        context.fillStyle = '#0009';
+        context.fillStyle = '#000000';
         context.fillRect(0, 0, width, height);
 
         const matrixEffect = () => {
@@ -52,8 +52,8 @@ function MatrixBackground({ timeout = 50 }) {
                 background: '#000000',
                 overflow: 'hidden',
                 position: 'fixed',
-                height: '100%',
-                width: '100%',
+                height: '100vh',
+                width: '100vw',
                 zIndex: -1,
                 left: '0',
                 top: '0',

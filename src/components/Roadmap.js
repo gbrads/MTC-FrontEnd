@@ -32,7 +32,7 @@ function Roadmap() {
           </FadeInSection>
           <FadeInSection>
             <div>
-              <img src="/Images/blueprint3.png" className="blueprint"/>
+              <img src="/Images/blueprint11.png" className="blueprint"/>
             </div>
           </FadeInSection>
       </div>

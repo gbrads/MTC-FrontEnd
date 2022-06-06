@@ -49,7 +49,7 @@ function Team() {
                 <img src="/Images/team11.png" className="img-fluid" />
                 </FadeInSection>
                 <FadeInSection>
-                <h3>Tommy</h3>
+                <h3>Stefan</h3>
                 </FadeInSection>        
               </div>
               <FadeInSection>
@@ -62,7 +62,7 @@ function Team() {
                 <img src="/Images/team11.png" className="img-fluid" />
                 </FadeInSection>
                 <FadeInSection>
-                <h3>Tommy</h3>
+                <h3>Garret</h3>
                 </FadeInSection>        
               </div>
               <FadeInSection>
@@ -75,7 +75,7 @@ function Team() {
                 <img src="/Images/team11.png" className="img-fluid" />
                 </FadeInSection>
                 <FadeInSection>
-                <h3>Tommy</h3>
+                <h3>Trevor</h3>
                 </FadeInSection>        
               </div>
               <FadeInSection>
@@ -88,7 +88,7 @@ function Team() {
                 <img src="/Images/team11.png" className="img-fluid" />
                 </FadeInSection>
                 <FadeInSection>
-                <h3>Tommy</h3>
+                <h3>Nate</h3>
                 </FadeInSection>        
               </div>
               <FadeInSection>
@@ -101,7 +101,7 @@ function Team() {
                 <img src="/Images/team11.png" className="img-fluid" />
                 </FadeInSection>
                 <FadeInSection>
-                <h3>Tommy</h3>
+                <h3>Dillon</h3>
                 </FadeInSection>        
               </div>
               <FadeInSection>
